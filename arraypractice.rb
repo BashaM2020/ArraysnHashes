@@ -1,11 +1,14 @@
-#Array= ordered, integered-indexed collection of any objects, can be numbers, floats, words, strings, symbols!
-#since its a collection of objects, this means its able to be counted this is helped with the term "Enumerable" arrays use this description
-#USE ARRAYS WHEN YOU HAVE SIMILAR OBJECTS!!!!!!!!!!!!!!!
+#Array= ordered, integered-indexed collection of any objects/ data types,
+# can be numbers, floats, words, strings, symbols!
+# since its a collection of objects, this means its able to be counted 
+# this is helped with the term "Enumerable" arrays use this description
+#USE ARRAYS WHEN YOU HAVE SIMILAR OBJECTS, such as numbers in one list
+# strings in another list, and floats in another list!!!!!!!!!!!!!!!
 
 
 
 #Creating a list, collection, an ARRAY
-#in irb just type [] in VSC make it into a variable first.
+#in irb just type [] in VSC make it into a variable first before creating this [].
 
 # my_array = []
 
@@ -23,14 +26,14 @@
 # puts my_array
 # puts "================="
 
-#everything in the array is a value, numbered by an index starting from 0
-#every item joins from the end of the list. push.
+#everything in the array is a value, numbered by an invisable index starting from 0
+#every extra item added joins from the end of the list. using .push
 
 # my_array.push "brown"
 
 # puts my_array
 
-#to remove an array, use pop, this takes it off from the end of the list
+#to remove an array, use .pop, this takes it off from the end of the list
 
 # my_array.pop 
 
@@ -58,8 +61,9 @@
 
 #!! remember when you remove an item, every index value changes to its new place in the list
 
-#Accessing values, use [index number] [-negative index number gets your value from the end of the list]
-
+#Accessing values, use either [index number] 
+# or [-negative index number] which gets your value from the end of the list
+# just call on it by the index number!
 #:) :) :):) :) :):) :) :):) :) :)
 
 # puts my_array[4]
@@ -96,7 +100,8 @@
 
 nested_arrays =[["birds" , "chickens" , "owls"], ["fish" , "dolphines" , "whales"], ["ants" , "worms" , "beetles"]]
 
-
+#this is how you call on an item from an array!
+puts nested_arrays[0][1]
 
 
 
