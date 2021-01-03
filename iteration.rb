@@ -137,7 +137,7 @@ first_names = ['Chana', 'Amber', 'Kate',  'Chonga']
 names_that_start_with_c = first_names.select do |name|
   name.chars.first == 'C'
 end
-
+# .select with key and value??????????
 puts names_that_start_with_c
 
 puts "========================"
