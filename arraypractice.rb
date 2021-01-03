@@ -5,12 +5,22 @@
 #USE ARRAYS WHEN YOU HAVE SIMILAR OBJECTS, such as numbers in one list
 # strings in another list, and floats in another list!!!!!!!!!!!!!!!
 
+#you can put a variable inside your array!
+#you can assign a variavle name to the number of ur object in the array
+# number = 2
+# greetings[number]
+
 
 
 #Creating a list, collection, an ARRAY
-#in irb just type [] in VSC make it into a variable first before creating this [].
+#in irb just type [] in VSC make 
+#it into a variable first before creating this [].
+#or type Array.new
 
 # my_array = []
+#z = Array.new(3, "Matz!")
+# ["Matz!", "Matz!", "Matz!"]
+
 
 # my_array = ["red" , "orange" , "yellow"]
 
@@ -61,9 +71,17 @@
 
 #!! remember when you remove an item, every index value changes to its new place in the list
 
+# .length= tells you how many objects
+# .include?= tells you if its there= boolean value= true or false
+# .max and .min = tells u which is max or min numS
+
+
 #Accessing values, use either [index number] 
 # or [-negative index number] which gets your value from the end of the list
 # just call on it by the index number!
+#if you want to know the data type you can do: colors[2].class => it will 
+#return the data type of the second index, which in this case is string!!
+
 #:) :) :):) :) :):) :) :):) :) :)
 
 # puts my_array[4]
