@@ -94,8 +94,8 @@ bears = {
   'Grumpy'     => { action: 'shoots a poison tipped arrow at', damage: 20 }
 }
 
-useful_bears = bears.select do |_bear, attributes|
+useful_bears = bears.select do |bear, attributes|
   attributes[:damage] > 50
 end
 
-puts useful_bears
+puts useful_bears.keys

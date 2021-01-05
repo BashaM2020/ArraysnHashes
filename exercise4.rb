@@ -8,36 +8,33 @@ my_dogs =[
 { :name => 'Jade', :position => 11 }, 
 ]
 
-#return dogs that have a position > 10
-#thru a method called get-absent-dogs
+# #return dogs that have a position > 10
+# #thru a method called get-absent-dogs
 
-# 1.
+# # 1.
 
 def get_absent_dogs(my_dogs)
     far_dogs=[]
     my_dogs.each do |dog|
-    
-    if dog[:position] > 10
-    far_dogs.push(dog)
+        if dog[:position] > 10
+        far_dogs.push(dog)
+        end
     end
-
-end
 return far_dogs
 end
 
 puts get_absent_dogs(my_dogs)
 puts "====================="
 
-
-def call_absent_dogs(hash_dogs)
-    far_dog={}
-    hash_dogs.each do |x,y|
+# 2.
+def call_absent_dogs(hash_object_dogs)
+    hash_object_dogs.each do | x |
         if x[:position] > 10
          puts "Come back, #{x[:name]}!"
         end
     end
-    return far_dog
 end
+
 call_absent_dogs(my_dogs)
 puts "================"
 neighbors_dogs= [

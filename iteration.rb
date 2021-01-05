@@ -84,11 +84,12 @@ end
 
 
 #MAAAAPPPPPPP
-#.each just calls out the the values in a list, 
-# .map changes those values into a new value apple--> apple juice.
-# .map! permanantly chnages your value!!!!!!!!!!!!!
+# similar to .each, as it also calls out the the objects in an array, 
+# .map changes those objects into a new object ex: apple--> apple juice.
+# .map! permanantly chnages your object!!!!!!!!!!!!!
+# 
 
-# Assign your a new variable (apple juice) to your old list! 
+# ALWAYSSSS ssign your new variable (apple juice) to your old list! 
 # and get it it whenever you want
 #MUTATTION = VALUE THAT CHANGES = ****USUALLY***** HAVE A ! NEAR BY = ! AKA 'BANG'
 
