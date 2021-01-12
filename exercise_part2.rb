@@ -77,10 +77,14 @@
 # def translation(hash_lang)
 #     hash_lang.select do |foreign, english|
 #         if foreign == :bonjour
-#         puts " #{english} in French is #{foreign}."
-#         if foreign == :hola
+#             puts " #{english} in French is #{foreign}."
+#         elsif foreign == :mere
+#             puts " #{english} in French is #{foreign}."
+#         elsif  foreign == :pomme
+#             puts " #{english} in French is #{foreign}."
+#         elsif foreign ==
 #         puts " #{english} in Spanish is #{foreign}."    
-#         if foreign == :shalom
+#         elsif foreign == 
 #         puts " #{english} in Hebrew is #{foreign}."
 #         elsif foreign == nil
 #         end
@@ -103,3 +107,72 @@
 # append(fav_color)
 # append(fav_music)
 # append(sib_age)
+
+#Exercise5
+
+# hash_movie ={
+#     :1999 =>  ["The Matrix", "Star Wars: Episode 1", "The Mummy"]
+#     :2009 =>  ["Avatar", "Star Trek", "District 9"]
+#     :2019 =>  ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]
+# }
+
+# array_num =[123,456,789,0]
+
+# array_country=[
+#     {:Canada => "is in North America", :island=> "not an island"}
+#     {:USA =>"is in North America", :island=> "not an island"}
+#     {:Haiti=>"is in North America", :island=> "is an island"}
+# ]
+
+#Exercise6
+
+# 20.times do
+# puts "I will not skateboard in the halls"
+# end
+#   ???????????????????????????????v
+# array=["I will not skateboard in the halls"]
+# puts array
+# array=[1..50]
+# puts array
+
+# Exercise7
+
+fav_color = ['red','orange','yellow','green']
+fav_artists = ['AG','AB','MW','ACG']
+ages = [12, 5, 8, 10, 3]
+
+# p fav_color.sort 
+# p fav_artists.sort 
+
+# fav_artists.each do |artist| 
+#     ages.each do |age| 
+#     puts "I love #{artist} #{age}."
+#     end 
+#     puts "========================"
+# end 
+def older_age(ages)
+    ages.map! do |age|
+    age += 1
+    end
+end 
+
+puts older_age(ages)
+puts "======================"
+
+def total_ages(ages)
+    ages.reduce(0) do |age, total|
+        total = total + age
+    end
+end
+
+puts total_ages(ages)
+
+
+
+
+
+
+
+
+
+
