@@ -1,0 +1,45 @@
+/* this is a comment */
+
+p{
+    color: red;
+    font-style: normal ;
+}
+
+body {
+background-color: wheat;
+margin: 35px;
+
+}
+
+.myLiClass { color: blue;
+font-size: 30px;
+}
+
+.pClass {
+color: darkgreen;
+
+}
+
+
+
+#myUniqueId{
+    background-color: cornflowerblue;
+}
+
+table p{
+    color: palevioletred
+}
+
+ul > li {
+    color: red
+}
+
+.myLiClass + li {
+
+    color: limegreen
+}
+
+a:hover {
+color: orange
+
+}
